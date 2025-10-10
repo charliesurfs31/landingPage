@@ -11,9 +11,16 @@
   color: #f9faf8;
 }
 
+.info {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+}
+
 .quote {
   background-color: #e5e7eb;
   font-size: 36 px;
-  
+  text-align: center;
   color: #1F2937;
 }
