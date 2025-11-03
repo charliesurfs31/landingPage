@@ -15,28 +15,28 @@ Could I make a class for buttons?
 <body>
   <!-- section 1: Hero Section -->
   <div class="hero">
-    <header style="font-size: 24px">
-        AVNTR
+    <header>
+      <img src="avntrLogo.PNG" alt="AVNTR Logo" style="width: 100px;">
+      <nav>
+        <a href="#">Latest Issue</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
     </header>
-    <header style="color: #e5e7eb; font-size: 18px;">
-      <a>
-        Latest Issue
-      </a>
-      <a>
-        About
-      </a>
-      <a>
-        Contact
-      </a>
-    </header>
-    <p style="font-weight: 900;">
-      AVNTR Journal</p>
-    <p style="color: #e5e7eb; font-size: 18px;">
-      Longform. Curated. Stories found nowhere else.
-    </p>
-    <a class="button"; style="font-size: 18px;">
-      See the latest issue
-    </a>
+    <div class="titleSection">
+        <div class="titleLeft">
+        <h1 style="font-size: 48px; color: #f9faf8; font-weight: 900;">AVNTR Journal</h1>
+        <p style="color: #e5e7eb; font-size: 18px;">
+          Built to inspire one's best adventures.
+        </p>
+        <a class="button" style="font-size: 18px;">
+          See the latest issue
+        </a>
+      </div>
+      <div class="titleRight">
+        <img src="adventureImage.jpg" alt="Adventure Image" style="width: 400px; margin-top: 20px;">
+      </div>
+    </div>
   </div>
 
   <!-- section 2: Info Section -->
@@ -45,15 +45,23 @@ Could I make a class for buttons?
     "some random information"
     four illustrations or images with subtext (sports covered? Ski, surf, mtb, trail running)
     -->
-    <p>
-      Pick your adventure.
-      <br>
-      <img src="https://img.icons8.com/ios-filled/50/000000/mountain.png"/>
-      <img src="https://img.icons8.com/ios-filled/50/000000/surfing.png"/>
-      <img src="https://img.icons8.com/ios-filled/50/000000/bicycle.png"/>
-      <img src="https://img.icons8.com/ios-filled/50/000000/running.png"/>
-      
-    </p>
+    <h2>Pick your adventure.</h2>
+      <div class="adventureCard">
+        <img src="https://img.icons8.com/ios-filled/50/000000/mountain.png"/>
+        <p>Skiing</p>
+      </div>
+      <div class="adventureCard">
+        <img src="https://img.icons8.com/ios-filled/50/000000/surfing.png"/>
+        <p>Surfing</p>
+      </div>
+      <div class="adventureCard">
+        <img src="https://img.icons8.com/ios-filled/50/000000/bicycle.png"/>
+        <p>Mountain Biking</p>
+      </div>
+      <div class="adventureCard">
+        <img src="https://img.icons8.com/ios-filled/50/000000/running.png"/>
+        <p>Trail Running</p>
+      </div>
   </div>
 
   <!-- section 3: Quote Section -->
@@ -62,18 +70,18 @@ Could I make a class for buttons?
     Inspirational quote
         -whoever said it
     -->
-        <p>
-          "The mountains are calling, and I must go."
-          -John Muir
-        </p>
+        <blockquote>"The mountains are calling, and I must go."</blockquote>
+          <p>-John Muir</p>
   </div>
 
   <!-- Section 4: subscribe -->
-  <div class="button">
+  <div class="subscribe">
     <!-- using <a> tags to link to subscribe page eventually -->
-    <a>
-      Subscribe
-    </a>
+    <h3>Subscribe</h3>
+    <div>
+      <p>Join our mailing list to find your next adventure!</p>
+    </div>
+      <a class="button">Subscribe</a>
   </div>
 
   <!-- section 5: Footer -->
