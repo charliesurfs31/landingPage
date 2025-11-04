@@ -1,26 +1,179 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header and hero styles */
+
+header img {
+  width: 100px;
+}
+
+nav {
+  gap: 40px;
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color:#e5e7eb;
+  font-size: 18px;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+header a {
+  color: #e5e7eb;
+}
+
 .hero {
   background-color: #1F2937;
-  font: Roboto sans-serif;
   color: #f9faf8;
   font-size: 48px;
-  text-align: left;;
+  padding-bottom: 100px;
 }
+
+.titleSection {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.titleLeft h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.titleLeft p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.titleRight img {
+  width: 300px;
+  height: auto;
+}
+
+/* button style */
 
 .button {
   background-color: #3882F6;
   color: #f9faf8;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 8px;
 }
 
+/* info style */
+
 .info {
+  display: flex;
+  flex-direction: column;
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
   text-align: center;
 }
 
+.adventureCards {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 100px;
+}
+
+.adventureCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.adventureCard img {
+  border: 2px solid #3882f6;
+  border-radius: 8%;
+  padding: 10px;
+}
+
+/* quote style */
+
 .quote {
   background-color: #e5e7eb;
-  font-size: 36 px;
-  text-align: center;
+  font-size: 36px;
   color: #1F2937;
+  padding: 100px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote blockquote {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.quote p {
+  font-weight: bold;
+  text-align: right;
+  padding-left: 500px;
+}
+
+/* subscribe style */
+.subscribe {
+  margin: 100px 200px;
+  display: flex;
+  background-color: #3882f6;
+  font-size: 18px;
+  color: #f9faf8;
+  padding: 50px 100px;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+.subscribeLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.subscribeRight .button {
+  display: flex;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 15px;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+}
+
+.subscribeLeft h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.subscribeLeft p {
+  margin: 0;
+}
+
+/* footer style */
+
+footer {
+  background-color: #1F2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content:  center;
+  padding: 20px 100px;
 }
